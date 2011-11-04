@@ -133,6 +133,7 @@ for the user to do the decompression, if the need should arise.
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc.tex
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -143,3 +144,5 @@ for the user to do the decompression, if the need should arise.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
