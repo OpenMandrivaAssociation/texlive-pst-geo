@@ -17,8 +17,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 pst-geo is a set of PSTricks related packages for various
@@ -35,20 +33,12 @@ happens on-the-fly as a document using the data is displayed,
 printed or converted to PDF format. A Perl script is provided
 for the user to do the decompression, if the need should arise.
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -134,7 +124,6 @@ for the user to do the decompression, if the need should arise.
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc.tex
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -145,5 +134,3 @@ for the user to do the decompression, if the need should arise.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
