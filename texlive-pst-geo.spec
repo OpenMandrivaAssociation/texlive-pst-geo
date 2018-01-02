@@ -1,12 +1,6 @@
-# revision 17751
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-geo
-# catalog-date 2009-08-31 11:47:07 +0200
-# catalog-license lppl
-# catalog-version 2.03
 Name:		texlive-pst-geo
-Version:	2.03
-Release:	10
+Version:	0.06
+Release:	1
 Summary:	Geographical Projections
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-geo
@@ -43,87 +37,10 @@ for the user to do the decompression, if the need should arise.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/dvips/pst-geo/pst-map3d.pro
-%{_texmfdistdir}/dvips/pst-geo/pst-map3dII.pro
-%{_texmfdistdir}/tex/generic/pst-geo/data/README
-%{_texmfdistdir}/tex/generic/pst-geo/data/aus.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/c-cap.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/c-sub.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/canada.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/capitales.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/capitales3d.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/capitals.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/cities.data
-%{_texmfdistdir}/tex/generic/pst-geo/data/cities.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/citycapitals.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/citysub.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/convert.py
-%{_texmfdistdir}/tex/generic/pst-geo/data/corse.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/france.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/mex.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/pborder.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/pcoast.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/pisland.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/plake.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/rhone.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/ridge.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/river.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/seine.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/transfrm.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/trench.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/usa.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/villesFrance.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/villesFrance3d.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/villesItalia.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/villesItalia3d.tex
-%{_texmfdistdir}/tex/generic/pst-geo/data/wfraczon.dat
-%{_texmfdistdir}/tex/generic/pst-geo/data/wmaglin.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/README
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/africa-bdy.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/africa-cil.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/africa-riv.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/asia-bdy.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/asia-cil.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/asia-isl.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/asia-riv.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/c-cap.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/c-sub.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/citycapitals.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/citysub.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/europe-bdy.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/europe-cil.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/europe-riv.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/namer-bdy.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/namer-cil.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/namer-pby.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/namer-riv.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/samer-arc.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/samer-bdy.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/samer-cil.dat
-%{_texmfdistdir}/tex/generic/pst-geo/dataII/samer-riv.dat
-%{_texmfdistdir}/tex/generic/pst-geo/pst-map2d.tex
-%{_texmfdistdir}/tex/generic/pst-geo/pst-map2dII.tex
-%{_texmfdistdir}/tex/generic/pst-geo/pst-map3d.tex
-%{_texmfdistdir}/tex/generic/pst-geo/pst-map3dII.tex
-%{_texmfdistdir}/tex/latex/pst-geo/pst-map2d.sty
-%{_texmfdistdir}/tex/latex/pst-geo/pst-map2dII.sty
-%{_texmfdistdir}/tex/latex/pst-geo/pst-map3d.sty
-%{_texmfdistdir}/tex/latex/pst-geo/pst-map3dII.sty
-%doc %{_texmfdistdir}/doc/generic/pst-geo/Changes
-%doc %{_texmfdistdir}/doc/generic/pst-geo/PSTricks.bib
-%doc %{_texmfdistdir}/doc/generic/pst-geo/README
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-geo-compress.pl
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-geo-decompress.pl
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map2d-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map2d-doc.tex
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map2dII-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map2dII-doc.tex
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc-pdf.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc-pdf.tex
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3d-doc.tex
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-geo/pst-map3dII-doc.tex
+%{_texmfdistdir}/dvips/pst-geo
+%{_texmfdistdir}/tex/generic/pst-geo
+%{_texmfdistdir}/tex/latex/pst-geo
+%doc %{_texmfdistdir}/doc/generic/pst-geo
 
 #-----------------------------------------------------------------------
 %prep
@@ -134,17 +51,3 @@ for the user to do the decompression, if the need should arise.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.03-2
-+ Revision: 755310
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.03-1
-+ Revision: 719355
-- texlive-pst-geo
-- texlive-pst-geo
-- texlive-pst-geo
-- texlive-pst-geo
-
