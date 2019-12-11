@@ -1,6 +1,6 @@
 Name:		texlive-pst-geo
 Version:	0.06
-Release:	2
+Release:	3
 Summary:	Geographical Projections
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-geo
